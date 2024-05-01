@@ -3,7 +3,7 @@ var button = document.getElementById('button')
 let randomNum = math.random() * 100;
 
 function clicked() {
-window.open("https://youtube.com")
+location.href("https://youtube.com")
 console.log(randomNum)
 }
 
